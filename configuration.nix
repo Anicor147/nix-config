@@ -85,6 +85,7 @@
     isNormalUser = true;
     description = "Coyol-Nix";
     extraGroups = [ "networkmanager" "wheel" ];
+    initialPassword = "change";
     packages = with pkgs; [];
   };
 
